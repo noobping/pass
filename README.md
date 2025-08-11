@@ -3,6 +3,12 @@
 
 Run pass in a container.
 
+## Pull the image
+
+```sh
+docker pull ghcr.io/noobping/pass:latest
+```
+
 ## Use it with Docker
 
 Make a alias for pass:
