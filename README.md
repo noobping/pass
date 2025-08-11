@@ -1,17 +1,16 @@
+# Pass Container
 
-# pass container
+Run [`pass`](https://www.passwordstore.org/) inside a container.
 
-Run pass in a container.
-
-## Pull the image
+## 📥 Pull the image
 
 ```sh
 docker pull ghcr.io/noobping/pass:latest
 ```
 
-## Use it with Docker
+## 🐳 Using with Docker
 
-Make a alias for pass:
+Add an alias to run `pass` via Docker:
 
 ```sh
 alias pass='docker run --rm -it \
@@ -24,9 +23,9 @@ alias pass='docker run --rm -it \
   ghcr.io/noobping/pass:latest pass'
 ```
 
-## Use it with Podman
+## 🦭 Using with Podman
 
-Make a alias for pass:
+Add an alias to run `pass` via Podman:
 
 ```sh
 alias pass='podman run --rm -it \
