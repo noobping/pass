@@ -29,6 +29,7 @@ Add an alias to run `pass` via Podman:
 
 ```sh
 alias pass='podman run --rm -it \
+  --userns=keep-id \
   --user $(id -u):$(id -g) \
   -e HOME=/home/app \
   -e GPG_TTY=$(tty) \
