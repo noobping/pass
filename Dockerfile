@@ -1,5 +1,5 @@
 FROM alpine:latest
-RUN apk add --no-cache bash gnupg pinentry-tty git pass pass-otp
+RUN apk add --no-cache bash gnupg pinentry-tty git pass pass-otp findutils sed tree
 
 ARG USERNAME=app
 ARG UID=1000
