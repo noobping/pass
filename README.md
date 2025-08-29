@@ -1,3 +1,5 @@
+[![Build & Publish](https://github.com/noobping/pass/actions/workflows/docker.yml/badge.svg)](https://github.com/noobping/pass/actions/workflows/docker.yml)
+
 # Pass Container
 
 Run [`pass`](https://www.passwordstore.org/) inside a container.
