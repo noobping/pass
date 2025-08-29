@@ -1,4 +1,4 @@
-[![Build & Publish](https://github.com/noobping/pass/actions/workflows/docker.yml/badge.svg)](https://github.com/noobping/pass/actions/workflows/docker.yml)
+[![Build & Publish](https://github.com/noobping/pass/actions/workflows/docker.yml/badge.svg?branch=main)](https://github.com/noobping/pass/actions/workflows/docker.yml)
 
 # Pass Container
 
