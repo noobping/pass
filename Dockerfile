@@ -14,11 +14,10 @@ RUN printf '%s\n' \
   'export GPG_TTY=$(tty || true)' \
   'gpgconf --create-socketdir >/dev/null 2>&1 || true' \
   'export PINENTRY_USER_DATA=tty' \
-  'exec "$@"' \
+  'exec pass "$@"' \
   > /usr/local/bin/entry && chmod +x /usr/local/bin/entry
 
 USER ${USERNAME}
 WORKDIR /home/${USERNAME}
 
 ENTRYPOINT ["/usr/local/bin/entry"]
-CMD ["pass"]
