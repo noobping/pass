@@ -24,5 +24,5 @@ alias pass='podman run --rm -it \
   -v "$HOME/.password-store:/home/app/.password-store:Z" \
   -v "$HOME/.gnupg:/home/app/.gnupg:Z" \
   -w /home/app \
-  ghcr.io/noobping/pass:latest pass'
+  ghcr.io/noobping/pass:latest'
 ```
